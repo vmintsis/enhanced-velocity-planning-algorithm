@@ -22,7 +22,6 @@ Insturctions on how to add an Aimsun API in [Aimsun](https://www.aimsun.com/aims
 The following figure depicts the EVPA GUI that pops up when an Aimsun Experiment is run and the EVPA API is enabled:
 
 <img src="img/Aimsun_API_Speed_Advice.jpeg" align="center" width="75%"/>
-<br/><br/>
 
 The EVPA GUI allows a user to initialize and manipulate the following elements of the EVPA API:
 
