@@ -48,7 +48,6 @@ In order to visualize vehicle types based on speed advice implementation the fol
 <br/><br/>
 
 <img src="img/View_Mode_Advised.jpeg" align="center" width="75%"/>
-<br/><br/>
 
 # Technical questions
 
