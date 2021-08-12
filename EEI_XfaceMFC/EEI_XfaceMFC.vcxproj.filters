@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\AAPI">
+      <UniqueIdentifier>{b825fcc6-16a3-4e81-b298-e9d824780856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EEI_Dlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EEI_GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EEI_XfaceMFC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Precompiled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AAPIVisual\ServiceProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AAPI.cxx">
+      <Filter>Source Files\AAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AAPIVisual\ControlPlan.cpp">
+      <Filter>Source Files\AAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AAPIVisual\EEI_Errors.cpp">
+      <Filter>Source Files\AAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AAPIVisual\EEIManager.cpp">
+      <Filter>Source Files\AAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AAPIVisual\EEIObject.cpp">
+      <Filter>Source Files\AAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AAPIVisual\EnergyEfficientIntersection.cpp">
+      <Filter>Source Files\AAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AAPIVisual\EnergyEfficientIntersectionAlgo.cpp">
+      <Filter>Source Files\AAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AAPIVisual\Statistics.cpp">
+      <Filter>Source Files\AAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\AAPIVisual\TrackedVehicles.cpp">
+      <Filter>Source Files\AAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EEI_Dlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EEI_GUI.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EEI_XfaceMFC.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Precompiled.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\ServiceProvider.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\VehComplianceProfileXForm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\VehicleTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\CLog.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\ControlPlan.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\EEI_Errors.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\EEIManager.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\EEIObject.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\EnergyEfficientIntersection.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\JunctionSignalInfo.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\LogMacros.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\Section.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\Section_Str.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\Statistics.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\TrackedVehicles.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\TSptr.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\UnitConv.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\UnorderedContainer.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\AAPIVisual\VelocityProfile.h">
+      <Filter>Source Files\AAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Aimsun\AAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Aimsun\AAPI_Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Aimsun\AKIProxie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Aimsun\ANGConProxie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Aimsun\CIProxie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EEI_XfaceMFC.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="res\EEI_XfaceMFC.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\AAPIVisual\Report.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EEI_XfaceMFC.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

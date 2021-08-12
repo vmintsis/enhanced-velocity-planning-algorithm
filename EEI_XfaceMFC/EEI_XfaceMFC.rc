@@ -1,0 +1,219 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// EEI_REP
+//
+
+IDR_EEI_REP2            EEI_REP                 "..\\AAPiVisual\\Report.html"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Greek resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+#ifdef _WIN32
+LANGUAGE LANG_GREEK, SUBLANG_DEFAULT
+#pragma code_page(1253)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)\r\n"
+    "LANGUAGE 8, 1\r\n"
+    "#pragma code_page(1253)\r\n"
+    "#include ""res\\EEI_XfaceMFC.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,5,134,0
+ PRODUCTVERSION 1,5,134,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "CERTH/HIT"
+            VALUE "FileDescription", "Energy Efficient Intersection Service AIMSUN Add-On"
+            VALUE "FileVersion", "1.5.134"
+            VALUE "InternalName", "EEI_XfaceMFC.dll"
+            VALUE "LegalCopyright", "(c) E.Mintsis.  All rights reserved."
+            VALUE "LegalTrademarks", "AIMSUN by TSS-Transport Simulation Systems"
+            VALUE "OriginalFilename", "EEI_XfaceMFC.dll"
+            VALUE "ProductName", "EEI_1.5.134"
+            VALUE "ProductVersion", "1.5.134"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 550, 302
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Energy Efficient Intersection 1.0.5"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT2,271,19,64,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1,271,36,124,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,470,27,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,250,92,55,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,250,108,55,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,470,76,55,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,470,95,55,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,470,114,55,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,36,19,166,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Enable/Disable",IDC_BUTTON_USE,14,39,57,14
+    PUSHBUTTON      "Add",IDC_ADD_BTN,100,39,50,14
+    PUSHBUTTON      "Remove",IDC_REMOVE_BTN,152,39,50,14
+    LISTBOX         IDC_LIST1,13,57,189,214,LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT7,239,257,279,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BUTTON1,527,257,16,14
+    DEFPUSHBUTTON   "OK",IDOK,435,281,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,493,281,50,14
+    GROUPBOX        "Intersections",IDC_STATIC,7,7,200,288
+    GROUPBOX        "Network Parameters",IDC_STATIC,210,7,192,53
+    GROUPBOX        "Traffic Signal Parameters",IDC_STATIC,405,7,138,53
+    LTEXT           "Section ID:",IDC_STATIC,234,40,36,8
+    LTEXT           "Intersection ID:",IDC_STATIC,218,22,52,8
+    LTEXT           "Signal Group ID:",IDC_STATIC,414,29,53,8
+    LTEXT           "Start:",IDC_STATIC,228,96,19,8
+    LTEXT           "End:",IDC_STATIC,230,112,19,8
+    GROUPBOX        "Algorithmic Parameters",IDC_STATIC,210,63,333,99
+    LTEXT           "meters",IDC_STATIC,308,95,23,8
+    LTEXT           "meters",IDC_STATIC,308,111,23,8
+    LTEXT           "File:",IDC_STATIC,222,259,14,8
+    GROUPBOX        "Communication Zone",IDC_STATIC,216,77,126,50
+    RTEXT           "Acceleration Factor:",IDC_STATIC,402,79,66,8
+    RTEXT           "Influence Zone Calib. Parameter:",IDC_STATIC,359,98,107,8
+    LTEXT           "Name:",IDC_STATIC,13,21,22,8
+    RTEXT           "Minimum Allowable Speed:",IDC_STATIC,373,116,92,8
+    PUSHBUTTON      "New Intersection",IDC_NEW_BTN,13,276,76,14
+    LTEXT           "",IDC_NEW_IND,93,278,11,10,WS_BORDER,WS_EX_CLIENTEDGE
+    GROUPBOX        "Equipped Vehicle Types",IDC_STATIC,396,164,147,86
+    LISTBOX         IDC_LIST2,408,177,122,67,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Log All",IDC_DEBUG_LOG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,205,37,10
+    CONTROL         "Log Errors",IDC_DEBUG_LOG2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,219,49,10
+    CONTROL         "Log Messages",IDC_DEBUG_LOG3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,227,233,61,10
+    CONTROL         "Enforce Minimum Allowable Speed",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,401,132,123,10
+    CONTROL         "Enable Car-following Rules",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | BS_LEFTTEXT | WS_TABSTOP,423,145,101,10
+    EDITTEXT        IDC_REPLICATIONS,259,167,36,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Replications:",IDC_STATIC,215,170,42,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 543
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 295
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Greek resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+LANGUAGE 8, 1
+#pragma code_page(1253)
+#include "res\EEI_XfaceMFC.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

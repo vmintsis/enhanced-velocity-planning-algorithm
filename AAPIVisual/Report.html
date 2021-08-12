@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+	font-family: verdana, tahoma, sans;
+	font-size: 13px;
+}
+
+.title {
+	text-align: center;
+	width:100%;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 30px;
+}
+
+.rep_section {
+	text-align: center;
+	width:100%;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.net_tbl {
+	text-align: left;
+/*	border: 1px solid lightgrey; */
+	border-collapse: collapse;
+	font-weight: normal;
+}
+.net_tbl thead{
+	text-align: center;
+	text-decoration: underline;
+}
+
+.tbl_lbl {
+	text-align: right;
+}
+
+.tbl_lbl2 {
+	font-weight: bold;
+}
+
+.tbl_spc {
+	width: 50px;
+}
+
+.stat_tbl {
+	border-collapse: separate;
+	border-spacing:5px 0px;
+}
+
+.stat_tbl thead { 
+	text-decoration: none;
+}
+
+.stat_col {
+	padding: 0px 0px 0px 20px;
+	border-bottom: 1px solid black;
+}
+
+</style>
+<script>
+//REPORT_JS
+</script>
+</head>
+<body>
+	<div id="content">
+		<div class="title">
+		Energy Efficient Intersection Service-(<span id="SCENARIO_NAME"></span>)
+		</div>
+		
+		<div class="rep_section">
+		Network Parameters
+		<table class="net_tbl" align="center">
+		<tr>
+			<td class="tbl_lbl tbl_lbl2">Intersection Name:</td><td id="INTERSECTION_NAME"></td><td class="tbl_spc"></td><td class="tbl_lbl tbl_lbl2">Intersection ID:</td><td id="INTERSECTION_ID"></td>
+		</tr>
+		<tr>
+			<td class="tbl_lbl tbl_lbl2">Road Name:</td><td id="ROAD_NAME"></td><td class="tbl_spc"></td><td class="tbl_lbl tbl_lbl2">Road ID:</td><td id="ROAD_ID"></td>
+		</tr>
+		</table>
+		</div>
+		
+		<div class="rep_section">
+			Communication Zone
+			<table class="net_tbl" align="center">
+			<thead>
+				<tr>
+					<td colspan="5">Speed Advise transmitted to vehicles within zone:</td>
+				</tr>
+			</thead>
+			<tr>
+				<td class="tbl_lbl">Zone Starts At:</td><td id="ZONE_START"></td><td class="tbl_spc"></td><td>(meters)</td>
+			</tr>
+			<tr>
+				<td class="tbl_lbl">Zone Ends At:</td><td id="ZONE_END"></td><td class="tbl_spc"></td><td>(meters)</td>
+			</tr>
+			</table>
+		</div>
+
+		<div class="rep_section">
+			Algorithmic Parameters
+			<table class="net_tbl" align="center">
+			<tr>
+				<td class="tbl_lbl">Acceleration Factor:</td><td id="ACCEL_FACTOR"></td><td class="tbl_spc"></td><td></td>
+			</tr>
+			<tr>
+				<td class="tbl_lbl">Influence Zone Calibration Parameter:</td><td id="INFL_ZONE_CALIB_PARAM"></td><td class="tbl_spc"></td><td></td>
+			</tr>
+			<tr>
+				<td class="tbl_lbl">Minimum Allowable Speed:</td><td id="MIN_SPEED"></td><td class="tbl_spc"></td><td>(km/h)</td>
+			</tr>
+			<tr>
+				<td class="tbl_lbl">Car-Following Rule:</td><td id="CF_RULE"></td><td class="tbl_spc"></td><td></td>
+			</tr>
+			<tr>
+				<td class="tbl_lbl">Enforce Minimum Allowable Speed Rule:</td><td id="CF_MINSPEED"></td><td class="tbl_spc"></td><td></td>
+			</tr>
+			</table>
+		</div>
+
+		<div class="rep_section">
+			Traffic Signal Information
+			<table class="net_tbl" align="center">
+			<tr>
+				<td class="tbl_lbl">Control Type:</td><td>Fixed</td><td class="tbl_spc"></td><td></td>
+			</tr>
+			<tr>
+				<td class="tbl_lbl">Cycle Duration:</td><td id="CYCLE_DURATION"></td><td class="tbl_spc"></td><td>(sec)</td>
+			</tr>
+			<tr>
+				<td class="tbl_lbl">Green Time Allocated for Through Movement:</td><td id="GREEN_TIME_THRU"></td><td class="tbl_spc"></td><td>(sec)</td>
+			</tr>
+			<tr>
+				<td class="tbl_lbl">Green Time as (%) of Cycle Duration:</td><td id="GREEN_TIME_PERCENT"></td><td class="tbl_spc"></td><td>(%)</td>
+			</tr>
+			</table>
+		</div>
+		
+		<div class="rep_section">
+			Output Statistics
+			<table class="net_tbl stat_tbl" align="center" id="STAT_TBL">
+				<thead>
+					<tr id="TR_VEH_HDR"></tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+
+	</div>
+</body>
+</html>
